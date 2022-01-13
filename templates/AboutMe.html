@@ -1,0 +1,93 @@
+{% extends 'baseFile.html' %}
+<html>
+<head>
+
+</head>
+<body>
+{% load static %}
+    {% block content %}
+        <style>
+        p,h3{
+            color: #05386b;
+        }
+        h3{
+            padding-bottom: 15px;
+        }
+        .row{
+            border-top: 20px;
+        }
+        img{
+            border-radius: 50%;
+            height: 60%;
+            width: 95%;
+        }
+        #abc{
+            alignment: center;
+        }
+        </style>
+        <h3 style="text-align: center"><u>About Me</u>  </h3>
+        <div class="container" style="padding-bottom: 15px">
+            <div class="row">
+                <h1></h1>
+                <div class="col-md-5" id="abc">
+                    <img src="https://media-exp1.licdn.com/dms/image/C5103AQHMPo8ufnjKGg/profile-displayphoto-shrink_800_800/0/1563729341766?e=1647475200&v=beta&t=sJQiVlOMekhKtVWLpmvWXlfckvs32bTTbXnw9HBN3qE">
+                </div>
+                <div class="col-md-7" id="abc">
+                    <p>
+                        I am a petroleum engineering graduate from IIT Dhanbad, born on first of January 1999.
+                        I am born and brought up in the city of Kadapa in Andhra Pradesh. From my childhood, I was fascinated by science.
+                        So, I ended up doing science stuff for most of my life until now. Mathematics makes me understand my life, so I taught maths online.<br><br>
+                        In Oil and Gas industry I am interested in the fields of logging, rig less intervention, EOR,
+                        flow assurance. I am enthusiastic about data science and on my own learnt the statistical concepts related to data science.
+                        Machine Learning fascinates me, so I learnt about the workings and basics of the most generally used ML models.
+                        To do the practice on these models I had to learn R and Python on my own. During the process of learning python, I also ended up learning UI and Django.
+                        Thus, I was able to create this website and launch it on internet.
+                        Below are the links to my social media websites:<br><br>
+                        <a href="https://www.linkedin.com/in/pamidi-vamsi/" class="navbar-brand" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a class="navbar-brand" href="https://www.facebook.com/pamidivamsi1199/" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="navbar-brand" href="https://www.instagram.com/immaterial_hodgepodge/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <br><br>
+                        My positions of responsibilities and achievements:
+                        <ul>
+                            <li>
+                                <p>As a subsea panel engineer I am responsible for the health of Million-dollar oil and gas wells.</p>
+                            </li>
+                            <li>
+                                <p>Successfully made the field shutdown and startup
+                                    according to OMS (Operating Management System) guidelines when Emergency ShutDown (ESD-2) occurred.</p>
+                            </li>
+                            <li>
+                                <p>Safely done the startup of the wells AR1DEV1, AV1DEV1 several
+                                    times after they used to shut down due to uncommanded SCSSV closure.</p>
+                            </li>
+                            <li>
+                                <p>Sports and Cultural Secretary, Sapphire Hostel, IIT Dhanbad.</p>
+                            </li>
+                            <li>
+                                <p>Event Manager in The Society of Petroleum Engineers
+                                    IIT(ISM) Dhanbad Student Chapter.</p>
+                            </li>
+                            <li>
+                                <p>Organizer, SRIJAN 2018(Cultural Fest of IIT Dhanbad).</p>
+                            </li>
+                            <li>
+                                <p>Secured rank among the top 1% in Joint Entrance
+                                    Examination 2016.</p>
+                            </li>
+                            <li>
+                                <p>Secured a perfect 10 Semester GPA in my 6th-semester during my undergraduation.</p>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+</body>
+</html>

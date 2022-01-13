@@ -1,0 +1,72 @@
+{% extends 'baseFile.html' %}
+<html lang="">
+<head>
+
+</head>
+<body>
+{% load static %}
+    {% block content %}
+        <style>
+             p, h6{
+                color: #05386b;
+                text-align: center;
+                padding-bottom: 5px;
+            }
+            h5{
+                color: #05386b;
+                padding-bottom: 5px;
+            }
+            li{
+                color: #05386b;
+            }
+        </style>
+        <h3 style="color: #05386b; text-align: center"><u>Oil and Gas</u>  </h3>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p>
+                    I am a petroleum engineering graduate with high enthusiasm in logging, rig less intervention, EOR,
+                        flow assurance. I have more than 1 year hands-on experience
+                    and have also done 2 internships and  a field training regarding the same.<br>
+                    Logging, directional drilling fascinates me. So, I was ble to score a perfect
+                    10 Semester GPA during my 6th semester where they both were the main subjects.
+                    I have done the below projects related to oil and gas during my under-graduation:
+                </p>
+            </div>
+        </div><br><hr><br>
+            <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h5><u>Projects:</u></h5>
+                <h6>Analytical and computer-based Simulation of Cyclic Steam
+Stimulation</h6>
+                <ul>
+                    <li>
+                        Fabricated a computer-based (CMG Stars) simulation model of a
+reservoir and found the resultant heat injected and the production at varying injection criterion (steam
+injection rate, injection volume, injection interval, steam Quality).
+                    </li>
+                    <li>
+                        Analyzed different analytical models predicting the recovery, heat
+distribution, number of cycles, etc., of the cyclic steam stimulated wells.
+                    </li>
+                </ul><br><hr><br>
+                <h6>Drilling of Shale Gas Wells</h6>
+                <ul>
+                    <li>
+                       Studied different drilling Criterion like drill string design, drilling mud
+design, drilling trajectory design for drilling shale gas wells.
+                    </li>
+                    <li>
+                        The main issue was to find the original regressors that really affected the dependent variable, which was price.
+                    </li>
+                    <li>
+                        Using a model made up of a stack of 2 different machine learning techniques an accuracy of 96% was achieved on the test set. The main goal of the project, to maintain less overfitting, was achieved.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    {% endblock %}
+
+</body>
+</html>

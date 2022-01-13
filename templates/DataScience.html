@@ -1,0 +1,65 @@
+{% extends 'baseFile.html' %}
+<html>
+<head>
+
+</head>
+<body>
+{% load static %}
+    {% block content %}
+        <style>
+            p, h6{
+                color: #05386b;
+                text-align: center;
+                padding-bottom: 5px;
+            }
+            h5{
+                color: #05386b;
+                padding-bottom: 5px;
+            }
+            li{
+                color: #05386b;
+            }
+        </style>
+        <h3 style="color: #05386b; text-align: center"><u>Data Science</u>  </h3>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p>
+                    Have a good understanding of a whole data science project pipeline, starting from asking good questions to the end that is tabulating or interpreting the results.
+                    A data science project pipeline consists of asking right questions, acquiring the data, cleaning the data,
+                    performing exploratory data analysis, performing statistical analysis,creating an ML model that fit the data,
+                    then finally interpreting the results.<br>
+                    I am comfortable in programming in both R and Python languages. In python language I can play with data structures, OOP's, Pandas, regEx.
+                </p>
+            </div>
+        </div><br><hr><br>
+            <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h5><u>Projects:</u></h5>
+                <h6>Titanic - Machine Learning from Disaster</h6>
+                <ul>
+                    <li>
+                        Used advanced CART models to classify whether a data will fall into which category.
+                    </li>
+                    <li>
+                        Used stacking of various methods like Random Forest and SVM to get an accuracy of 95% on the testing data.
+                    </li>
+                </ul><br><hr><br>
+                <h6>Predicting Prices of Homes based on many influencing features</h6>
+                <ul>
+                    <li>
+                        Used advanced Regression models that can use both the numeric and categorical input.
+                    </li>
+                    <li>
+                        The main issue was to find the original regressors that really affected the dependent variable, which was price.
+                    </li>
+                    <li>
+                        Using a model made up of a stack of 2 different machine learning techniques an accuracy of 96% was achieved on the test set. The main goal of the project, to maintain less overfitting, was achieved.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    {% endblock %}
+</body>
+</html>
