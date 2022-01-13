@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-d-uv&xkh3g2j=pj3l5hj^pjt2e#_2&$6wq3a5uz6w_%0#tk!n^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['127.0.0.1', 'vamsi-pamidi.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'vamsi-pamidi.herokuapp.com']
 
 # Application definition
 
